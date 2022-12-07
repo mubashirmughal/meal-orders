@@ -1,7 +1,6 @@
 package com.example.muhammad_c0861455_exercise13mealorder;
 
 public class Meal {
-
     private String name;
     private double price;
 
@@ -25,4 +24,14 @@ public class Meal {
     public void setPrice(double price) {
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+        return "Meal{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                '}';
+    }
+
+
 }
