@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     Spinner spinner;
     EditText price;
 
-    String[] meals = {"Biryani", "Butter Chicken", "Chicken Burger"};
+    private Meal[] meals = {new meals("Biryani", 12), new meals("Chicken Burger",10), new meals("Butter Chicken",14)};
 
     @SuppressLint("MissingInflatedId")
     @Override
